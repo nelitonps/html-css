@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/*
+html id = # em css - *IMPORTATE: Usar apenas 1 id por página html é regra.
+html class = . em css
+*/
+
+body {
+    background-color: rgb(188, 248, 188);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    color: rgb(16, 68, 16);
+}
+
+h1#principal {
+    text-align: center;
+    color:  rgb(188, 248, 188);
+}
+
+h2 {
+    color: rgb(88, 126, 88);
+}
+
+.basico {
+    color: rgb(92, 125, 185);
+    font-weight: bold;
+}
+
+.intermediario {
+    color: rgb(223, 221, 104);
+}
+
+.avancado {
+    color: rgb(207, 117, 82);
+}
+
+.destaque {
+    background-color: rgb(228, 228, 117);
+}
